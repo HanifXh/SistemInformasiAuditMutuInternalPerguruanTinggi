@@ -1,0 +1,25 @@
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
+.container {
+    /* margin-top: 10px; */
+}
+.sidebar {
+    background: #eee
+}
+.content {
+    /* background: #474747; */
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	
+}
+
+.nav1{
+	width: 100%;
+	height: 5%;
+	background-color: #b22;
+}
+

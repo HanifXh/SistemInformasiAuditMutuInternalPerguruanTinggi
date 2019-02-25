@@ -1,0 +1,77 @@
+*{margin:0px auto;}
+body{
+	/* background-image: url('../img/galaxy.jpg'); */
+}
+#container{
+    min-height:100%;
+    position:relative;
+    /* background-image: url('../img/galaxy.jpg'); */
+}
+ 
+#header{
+	z-index: 1000;
+    width:100%;
+	color: #000;
+	/* height:90px;  */
+	background:#f0f0f0;
+    padding:10px;
+
+    color:#000; 
+	/* font-weight:bold; */
+	font-family: times new roman ; 
+	text-decoration:none; 
+	font-size:45px; 
+	line-height:60px; 
+}
+
+#logo{
+	margin-left: 10px; 
+	width: 10%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+#content{
+    /* padding:10px; */
+    /* background-image: url('../img/galaxy.jpg');  */
+    /* background: #000; */
+}
+
+#navigasi{
+	/* z-index:1000; z-index dgn nilai besar berfungsi supaya header selalu tampil didepan */
+	/* position:relative; */
+	margin-top: ; 
+	width:100%;
+	color: #fff;
+	height:85px; 
+	background:#b22;
+	padding-top: 5px;
+	padding-bottom: 50px;
+}
+
+#footer{
+    height:50px;
+    /* line-height:50px; */
+    background:#b22;
+    color:#fff;
+    position:absolute;
+    bottom:0px;
+    width:100%; /*biar memenuhi layar*/
+}
+
+.jam{
+	position: absolute;
+	background: #b22;
+	height: 100%;
+	margin-right: 93%;
+}
+
+.text-running{
+	margin-left: 7%;
+	position: absolute;
+	width: 93%;
+	height: 100%;
+	background: #000;
+	padding-left:1% ; 
+}
